@@ -180,3 +180,38 @@
   height: 550px;
   margin-bottom: 50px;
 }
+
+@media (max-width: 1024px) {
+  .content {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    flex-direction: column;
+    margin-bottom: 150px;
+  }
+
+  .content .text-content {
+    width: 100%;
+  }
+
+  .content .illustration {
+    width: 100%;
+    margin-top: 100px;
+  }
+
+  .footer .cards {
+    flex-direction: column;
+  }
+
+  .footer .cards .card {
+    width: 100%;
+  }
+
+  .footer .cards label[for="second-card"] {
+    margin: 20px 0;
+  }
+
+  .footer {
+    height: 500px;
+  }
+}
