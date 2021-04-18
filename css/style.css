@@ -196,7 +196,8 @@
 
   .content .illustration {
     width: 100%;
-    margin-top: 100px;
+    height: unset;
+    margin-top: 150px;
   }
 
   .footer .cards {
@@ -213,5 +214,33 @@
 
   .footer {
     height: 500px;
+  }
+}
+
+@media (max-width: 640px) {
+  .topbar .logo img {
+    width: 350px;
+    position: absolute;
+    top: 700px;
+    left: auto;
+    right: auto;
+    z-index: 0;
+    filter: opacity(.2);
+    cursor: unset;
+  }
+
+  .content .text-content {
+    margin-top: 400px;
+  }
+
+  .content .illustration {
+    width: 90%;
+    top: 0;
+    left: auto;
+    position: absolute;
+  }
+
+  .content {
+    margin-bottom: 100px;
   }
 }
